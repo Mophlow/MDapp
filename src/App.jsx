@@ -79,9 +79,9 @@ const App = ({ isServerInfo }) => {
           <MenuItems />
           <div style={styles.headerRight}>
             <TokenPrice
-              address="0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
-              chain="eth"
-              image="https://cloudflare-ipfs.com/ipfs/QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg/"
+              address="0xbd78d0666e707f386ddafe587848deb018d8e641"
+              chain="polygon"
+              //image="https://cloudflare-ipfs.com/ipfs/QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg/"
               size="40px"
             />
             <Account />
@@ -95,7 +95,7 @@ const App = ({ isServerInfo }) => {
                 defaultActiveKey="1"
                 tabPosition="left"
               >
-                <Tabs.TabPane tab={<span><FireFilled />My Runes</span>} key="1">
+                <Tabs.TabPane tab={<span><FireFilled />My xPhlow</span>} key="1">
                   <Gamify tab="runes" />
                 </Tabs.TabPane>
                 <Tabs.TabPane tab={<span><TrophyFilled /> Leaderboard</span>} key="2">
